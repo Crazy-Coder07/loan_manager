@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import './adminDashboard.css';
 import downarr from '../images/downarr.png';
 import user from '../images/user.png';
@@ -13,7 +13,6 @@ import loan from "../images/adminimg/loan.png";
 import otherloan from "../images/adminimg/otherloan.png";
 import rapid from "../images/adminimg/rapid.png";
 import saving from "../images/adminimg/saving.png";
-import loansIcon from "../images/adminimg/loan.png";
 import dashboard1 from "../images/adminimg/dashboard1.png";
 import boro1 from "../images/adminimg/boro1.png";
 import loan1 from "../images/adminimg/loan1.png";

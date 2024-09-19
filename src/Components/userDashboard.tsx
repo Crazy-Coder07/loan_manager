@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import './userDashboard.css';
-import axios from 'axios'; // Import Axios
+import axios from 'axios'; 
 import downarr from '../images/downarr.png';
 import user from '../images/user.png';
 import msg from '../images/msg.png';
