@@ -1,0 +1,365 @@
+.complete{
+  /* background-color: #EFEFEF; */
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 70px;
+    padding-left: 21px;
+    padding-right: 21px;
+    background-color: #FFFFFF;
+    background-blend-mode: darken;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 41.49%, #EAEAE9 59.17%);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.head1{
+    text-align: center;
+    margin: auto 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 28.55px;
+    font-weight: 700;
+    line-height: 33.45px;
+    text-align: left;
+    color: #0A512F;
+}
+
+.head2{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.head2 div{
+    display: flex;
+    flex-direction: row;
+    gap: 11px;
+    align-items: center;
+}
+
+.head2 img{
+    height: 31px;
+    width: 35px;
+}
+
+.home{
+    font-family: 'Roboto', sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 30.47px;
+    text-align: left;
+    color: #064921;
+}
+.payment{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23.44px;
+    text-align: left;
+    color: #0A512FB2;
+}
+.head3{
+    display: flex;
+    flex-direction: row;
+    gap:15px;
+    align-items: center;
+}
+
+.head3 img{
+    height: 29px;
+    width: 27px;
+}
+
+.bodytp{
+    width: 700px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+    margin-top: 120px;
+}
+
+.body1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 30px;
+}
+.body1left{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.currimg{
+    padding: 10px;
+    background-color:#6B9908;
+    ;
+    width: 20;
+    height: 40px;
+    margin-right: 20px;
+}
+.currsymimg{
+    height: 10px;
+    width: 10px;
+}
+.amnt{
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 46.88px;
+    color: #6B9908;
+    margin-top: 13%;
+    margin-left: -20px;
+}
+.deficit{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+.deficit div{
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 14.88px;
+    color: #6B9908;
+}
+
+.getloan{
+    height: 45px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    background-color: #26302b50;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); 
+}
+
+.body2{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 32%;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    width:  
+   80%;
+    margin-bottom: 20px;
+  }
+  
+  .borrow-button, .transact-button, .deposit-button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #f0f0f0;
+    cursor: pointer;
+  }
+  
+
+  .tabs {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    background-color: #f1f1f1;
+    border-radius: 8px;
+    margin-top: 10px;
+  }
+  
+  .tabs button {
+    background-color: transparent;
+    border: none;
+    padding: 14px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    outline: none;
+    color: #555;
+    margin: 0 50px;
+    border-radius: 4px;
+  }
+  
+  .tabs button:hover {
+    background-color: #ddd;
+  }
+  
+  .active-tab {
+    background-color: #e7f3d4;
+    color: #000;
+    font-weight: bold;
+    border-bottom: 3px solid #4CAF50;
+  }
+  .search-bar {
+    width: 97%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+
+  .loan-table-container {
+    margin: 20px auto;
+    width: 90%;
+  }
+  
+  h2 {
+    text-align: left;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .loan-table {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .loan-table-header, .loan-table-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 10px;
+    border-bottom: 1px solid #e0e0e0;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .loan-table-header {
+    background-color: #f9f9f9;
+  }
+  
+  .loan-table-row {
+    font-weight: normal;
+  }
+  
+  .loan-officer {
+    display: flex;
+    align-items: center;
+  }
+  
+  .loan-officer-img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  .status-badge {
+    padding: 6px 12px;
+    border-radius: 15px;
+    color: white;
+    font-size: 14px;
+  }
+  
+  .status-badge.pending {
+    background-color: #ffca28;
+  }
+  
+  .status-badge.verified {
+    background-color: #4caf50;
+  }
+  
+  .status-badge.rejected {
+    background-color: #f44336;
+  }
+  
+  .status-badge.approved {
+    background-color: #2196f3;
+  }
+  
+  .pagination-controls {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+  }
+  
+  .pagination-controls button {
+    padding: 10px 20px;
+    background-color: #2196f3;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .pagination-controls button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .pagination-controls span {
+    font-size: 16px;
+  }
+  
+  .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal-content {
+    background-color: white;
+    padding: 20px;
+    width: 900px;
+    border-radius: 8px;
+    position: relative;
+  }
+  
+  .close {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .form-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    gap: 20px;
+  }
+  
+  .form-row input,
+  .form-row textarea {
+    width: 48%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .form-footer {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .form-footer input {
+    margin-right: 10px;
+  }
+  
+  .submit-btn {
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  
