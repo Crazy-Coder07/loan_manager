@@ -69,7 +69,7 @@ const UserDashboard = () => {
   const handleSubmit = async (e:any) => {
     e.preventDefault();
     try {
-      const response = await axios.post('http://localhost:8080/api/v1/create-loan', formData); 
+      const response = await axios.post('https://loan-manager-b62z.onrender.com/api/v1/create-loan', formData); 
       console.log(response.data);
       toast.success("loan applied successfully");
       setIsDialogOpen(false);
@@ -107,7 +107,7 @@ const UserDashboard = () => {
           </div>
 
           <div>
-            <div className='payment' onClick={()=>navigate("/admin")}>Admin</div>
+            <div className='payment' onClick={()=>navigate("/admin")} style={{cursor:"pointer"}}>Admin</div>
           </div>
         </div>
 

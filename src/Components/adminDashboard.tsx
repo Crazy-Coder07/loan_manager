@@ -31,11 +31,13 @@ import sett1 from "../images/adminimg/sett1.png";
 import signout1 from "../images/adminimg/signout1.png";
 import user1 from "../images/adminimg/user1.png";
 import loanpay1 from "../images/adminimg/loanpay1.png";
+import { useNavigate } from 'react-router-dom';
 
 
 
 const AdminDashboard = () => {
-
+  
+  const navigate=useNavigate();
   const [sidebarOpen, setSidebarOpen] = useState(false);
 
   const toggleSidebar = () => {
@@ -56,7 +58,7 @@ const AdminDashboard = () => {
     <div className={`dashboard-container ${sidebarOpen ? 'dashboard-elements-shifted' : ''}`}>
       <div className='header'>
         <div className='headsidbar'>
-          <div className='head1'>CREDIT APP</div>
+          <div className='head1' onClick={()=>navigate("/")} style={{ cursor: "pointer" }}>CREDIT APP</div>
           <div style={{ cursor: "pointer" }}><img src={sidebarIcon} alt="" onClick={toggleSidebar} /></div>
         </div>
 
