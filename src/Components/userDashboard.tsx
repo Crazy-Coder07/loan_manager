@@ -14,8 +14,11 @@ import currsym from '../images/currsym.png';
 import loanicon from '../images/loanicon.png';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import { useNavigate } from 'react-router-dom';
 
 const UserDashboard = () => {
+
+  const navigate=useNavigate();
   const [borrowcs, setBorrowcs] = useState(true);
   const [transactcs, setTransactcs] = useState(false);
   const [depositecs, setDepositecs] = useState(false);
@@ -101,6 +104,10 @@ const UserDashboard = () => {
           <div>
             <img src={card} alt='not' />
             <div className='payment'>Card</div>
+          </div>
+
+          <div>
+            <div className='payment' onClick={()=>navigate("/admin")}>Admin</div>
           </div>
         </div>
 
